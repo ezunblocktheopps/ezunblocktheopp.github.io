@@ -24182,7 +24182,7 @@ $(document).on('click','#btnFlip',function() {
 			var y = 2;
 			var z = x * y;
 			var userChoice = prompt("Do you choose T or CT?").toUpperCase();
-			var coinToss = Math.random();
+			var coinToss = 1;
 			if (userChoice === "T") {
 				if (coinToss < 0.5) {
 					money += z;
